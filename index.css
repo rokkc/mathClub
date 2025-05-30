@@ -1,0 +1,9 @@
+#homeButton {
+	background: var(--primary2);
+}
+
+#title {
+	text-align: center;
+	font-size: 150px;
+	margin-top: 40px;
+}

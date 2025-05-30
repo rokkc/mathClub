@@ -1,0 +1,57 @@
+#officersButton {
+	background: var(--primary2);
+}
+
+#info {
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	gap: 70px;
+}
+
+.title {
+	font-size: 50px;
+}
+
+.officer {
+	height: 300px;
+	display: flex;
+	gap: 30px;
+}
+
+
+.officerInfo {
+	width: 300px;
+}
+
+.officerTitle {
+	font-size: 25px;
+	margin: 0;
+}
+
+.officerDesc {
+	white-space: normal;
+	overflow-wrap: break-word;
+	color: var(--text2);
+}
+
+.officerImage {
+	width: 300px;
+	object-fit: cover; 
+  	object-position: center center; 
+  	display: block; 
+  	border-radius: 10px;
+  	border: 2px solid var(--primary2);
+}
+
+
+
+
+
+
+
+
+
+
+
+

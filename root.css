@@ -1,0 +1,92 @@
+:root {
+  --primary1: #5E49E4;
+  --primary2: #45455A;
+  --text1: #E6E1E3;
+  --text2: #CBC4CC;
+  --surface1: #141314;
+  --surface2: #1C1B1D;
+  --surface3: #2A282B;
+  --inf: 1000000px;
+  --navbar-height: 70px;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('fonts/google-sans/ProductSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: var(--surface1);
+  font-family: 'Product Sans', sans-serif;
+  color: var(--text1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#navbar {
+  display: flex;
+  width: fit-content;
+  background: var(--surface2);
+  border-radius: var(--inf);
+  height: var(--navbar-height);
+  margin: auto;
+  margin-top: 40px;
+}
+
+.navbarButton {
+  padding: 0 55px 0 55px;
+  line-height: var(--navbar-height);
+  border-radius: var(--inf);
+  color: var(--text2);
+  display: inline-flex;     
+  align-items: center;     
+  justify-content: center;    
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.navbarButton:hover {
+  background: var(--surface3);
+}
+
+.navbarButton::before {
+  font-family: 'Material Symbols Outlined';
+  font-size: 1.4em;
+}
+
+#homeButton::before {
+  content: 'home';
+}
+
+#officersButton::before {
+  content: 'groups';
+}
+
+#resourcesButton::before {
+  content: 'map';
+}
+
+#archiveButton::before {
+  content: 'folder';
+}
+
+@media screen and (max-width: 850px) {
+  .navText {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
